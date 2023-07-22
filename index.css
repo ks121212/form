@@ -1,24 +1,31 @@
 
+#form{
+  margin: 10px;
+  padding: 30px;
+  background-color: lightseagreen;
+
+}
 .checked {
     color: orange;
   }
   table{
     padding: 50px;
-    margin: 2px;    
+    margin: 2px; 
+    width: 100%;   
+ }
+ #email{
+    width: 380px;
  }
  th,td{
-  margin-right: 10px;
-  padding: 10px 20px;
+ 
+   margin-right: 10px;
+  padding: 10px 20px; 
   justify-content: space-evenly;
  }
-.comment-box input{
-  width: 100%;
-  padding: 10px;
-  background-color: lightgrey;
-  border: 2px solid black;
-  height: 100px;
+#comment:hover{
+  background-color: blanchedalmond;
 }
-Email input{
-
+.btn:hover{
+  background-color: lightgreen;
+  color:black;
 }
-    
